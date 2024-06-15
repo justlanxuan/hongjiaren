@@ -1,0 +1,121 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Homepage Styles */
+.homepage {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.homepage h2 {
+  margin-bottom: 10px;
+}
+/*search-box*/
+.search-box {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+/*filters*/
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.filter h3 {
+  margin-bottom: 10px;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* Photos Styles */
+.photos {
+  overflow: hidden; /* 清除浮动 */
+}
+
+.info {
+  float: left;
+  width: 30%; /* 调整左边div的宽度 */
+}
+
+.photo {
+  float: right;
+  width: 70%; /* 调整右边div的宽度 */
+}
+
+.photo img {
+  max-width: 100%; /* 缩小照片的大小 */
+}
+/* Contact Styles */
+.contact {
+  background-color: #fff;
+  padding: 20px;
+}
