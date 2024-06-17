@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>相片站点 -- 相片</title>
+    <title>相片站点 -- 故事</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
   </head>
@@ -27,21 +27,26 @@
     </nav>
 
     <div class="container">
-      <h1 class="title">相片<br />Photos</h1>
-      <div class="search-box">
-        <input
-          type="text"
-          placeholder="根据年份或者人搜索/Search by year or person"
-        />
-        <button type="button" onclick="search()">Search</button>
-      </div>
-      <div class="photos">
-        <div class="info">
-          <div class="year">1950</div>
-          <div class="person">John Doe</div>
+      <h1 class="title">故事<br />Story</h1>
+      <p class="container">竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生！<br /></p>
+      <hr />
+      <div class="filters">
+        <div class="filter">
+          <h2>Years</h2>
+          <ul>
+            <li>1978</li>
+            <li>2008</li>
+            <li>2024</li>
+            <!-- 添加更多年份 -->
+          </ul>
         </div>
-        <div class="photo">
-          <img src="img\23-24-Spring (2).png" alt="Vintage Photo 1" />
+        <div class="filter">
+          <h2>Main Characters</h2>
+          <ul>
+            <li>Lanxuan</li>
+
+            <!-- 添加更多人物 -->
+          </ul>
         </div>
       </div>
     </div>

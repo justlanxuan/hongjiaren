@@ -12,6 +12,7 @@ function search() {
 
     if (year.includes(input) || person.includes(input)) {
       photos[i].style.display = "block";
+      photos[i].scrollIntoView({ behavior: "smooth" }); // 将匹配的 div 滚动到可视区域
     } else {
       photos[i].style.display = "none";
     }
